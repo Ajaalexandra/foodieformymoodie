@@ -1,0 +1,107 @@
+.header {
+  background: #F4F4F4;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+
+
+}
+
+#logo {
+  height: 110px;
+
+}
+
+.nav {
+display: flex;
+justify-content: space-around;
+width: 20%;
+/*margin-left: 50%;*/
+align-self: flex-start;
+
+}
+
+a {
+  color:  #509d59;
+  text-decoration: none;
+
+}
+
+#Home:hover, #About:hover, #Contact:hover {
+  opacity: 0.6;
+  color: black;
+
+}
+
+.carousel-item {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item1 {
+  background-image: url('./images/egg.jpeg');
+}
+
+.item2 {
+  background-image: url('./images/salmon.jpeg')
+
+}
+
+
+.item3 {
+  background-image: url('./images/pasta.jpeg')
+
+}
+
+.item4 {
+  background-image: url('./images/pancake.jpeg')
+
+}
+
+.item5 {
+  background-image: url('./images/pizza.jpeg')
+
+}
+
+.item6 {
+  background-image: url('./images/happiness.jpeg')
+
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  font-family: 'Crimson Text', serif;
+  color: #509d59;
+  font-weight: 700;
+  background-color: #f4f4f4;
+}
+
+
+
+
+.recipeCards {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+background: #f4f4f4;
+}
+
+
+
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f4f4f4 ;
+}
