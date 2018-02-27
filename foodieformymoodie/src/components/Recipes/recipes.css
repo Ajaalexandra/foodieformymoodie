@@ -1,12 +1,10 @@
 .recipeCards {
-
   width: 300px;
   border: solid grey 2px;
-  
-
+  /* display: flex;
+  justify-content: center; */
 }
 
 .recipePic {
   width: 300px;
-
 }
